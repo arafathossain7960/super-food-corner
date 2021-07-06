@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.home{
+    display: flex;
+    height: 600px;
+}
+.home-contain{
+    width: 50%;
+    margin: 120px 50px 0px 150px;
+}
+.home-contain h1{
+    font-size: 45px;
+}
+.home-contain span{
+    color: #d84890;
+}
+.home-img{
+    width: 50%;
+    margin: 50px 50px 0px 50px;
+}
+.home-img img{
+    height: 95%;
+}
+/*--------About me ------*/
+.about{
+    display: flex;
+    background-image: url("img/Frame\ 59.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .about-img{
+    width: 50%;
+    height: 500px;
+}
+.about-img img{
+    height: 100%;
+  margin: 70px 0px 0px 150px;
+}
+.about-contain{
+    width: 50%;
+    margin: 140px 50px 0 100px;
+}
+/*----Recipes--*/
+.recipes{
+    margin-top:50px;
+}
+.recipe-title{
+  margin:10px auto;
+    width: 40%;
+    text-align: center;
+}
+.cart-container{
+    display: flex;
+   justify-content: space-between;
+}
+.cart{
+    width: 25%;
+    padding:15px;
+    margin: 30px 50px;
+    box-shadow: 5px 5px 30px lightgray ;
+    border-radius: 15px;
+}
+.cart img{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+}
+.cart-body{
+    margin: 10px;
+    padding: 8px;
+}
+/*--------subscriber-------*/
+.subscriber{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 50px  ;
+    height: 180px;
+    box-shadow: 5px 5px 30px lightgray ;
+    border-radius: 8px;
+}
+.subscribtion{
+  margin-top: 45px;
+  text-align: center;
+}
+/*----------Extra Section-------------------------*/
+/*------Get in touch-----------------*/
+.get{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    margin: 50px 50px;
+}
+.send-me{
+    width: 50%;
+    margin: 0 50px;
+}
+.send-me input, textarea{
+    width: 70%;
+    margin: 10px 0;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border:none;
+    box-shadow: 2px 2px 35px lightgray;
+    transition: 0.8s;
+}
+.send-me input:hover{
+border: #d84890 0.5px solid;
+}
+    
+.get-me p{
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 5px 25px;
+}
+/*-----footer-----------*/
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.footer span{
+    color: #d84890;
+}
+.footer h1{
+    color:gray;
+}
+.footer p{
+    color:white;
+}
+/*------Button Design ----------*/
+.btn{
+    width: 140px;
+    height: 50px;
+    padding: 15px 6px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #d84890, #640d0d);
+    border: none;
+    font-size: 18px;
+    color:white;
+    transition: 0.5s;
+}
+.btn:hover{
+    opacity: 0.7;
+}
